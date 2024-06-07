@@ -1,8 +1,8 @@
 def print_board(board):
 
     for row in board:
-        print(" | ".join(row))
-        print("-" * 5)
+        print("  | ".join(row))
+        print("-" * 12)
 
 
 def check_winner(board, player):
